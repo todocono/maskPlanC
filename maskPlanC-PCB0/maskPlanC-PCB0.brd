@@ -152,7 +152,7 @@
 <wire x1="36" y1="58" x2="34" y2="56" width="0" layer="20" curve="90"/>
 <wire x1="34" y1="56" x2="34" y2="40" width="0" layer="20"/>
 <wire x1="34" y1="40" x2="36" y2="38" width="0" layer="20" curve="90"/>
-<text x="44.5008" y="54.6608" size="1.27" layer="16" font="vector" ratio="15" rot="MR270">maskPlanC</text>
+<text x="43.8912" y="55.5752" size="1.27" layer="16" font="vector" ratio="15" rot="MR270">maskPlanC</text>
 <hole x="36" y="40" drill="2.1"/>
 <hole x="57" y="40" drill="2.1"/>
 <hole x="57" y="56" drill="2.1"/>
@@ -164,15 +164,16 @@
 <text x="46.0248" y="42.3672" size="1.016" layer="16" rot="MR0">-</text>
 <text x="53.34" y="42.9768" size="1.016" layer="16" rot="MR0">-</text>
 <text x="40.2336" y="45.1104" size="1.778" layer="25" rot="R90">-</text>
-<text x="45.4152" y="42.3672" size="1.778" layer="25">-</text>
-<text x="52.7304" y="42.3672" size="1.778" layer="25">-</text>
+<text x="44.8056" y="42.672" size="1.778" layer="25">-</text>
+<text x="52.7304" y="42.672" size="1.778" layer="25">-</text>
 <text x="39.9288" y="51.2064" size="1.016" layer="25" rot="R180">+</text>
 <text x="42.672" y="42.672" size="1.016" layer="25">+</text>
-<text x="49.9872" y="42.3672" size="1.778" layer="25">+</text>
+<text x="50.5968" y="42.672" size="1.016" layer="25">+</text>
 <text x="40.2336" y="46.6344" size="1.016" layer="25" rot="R90">3/A3</text>
 <text x="46.9392" y="42.672" size="1.016" layer="25">2/A1</text>
-<text x="39.9288" y="42.3672" size="1.016" layer="25">1</text>
-<text x="46.3296" y="54.6608" size="1.27" layer="16" font="vector" ratio="15" rot="MR270">IMA</text>
+<text x="39.9288" y="42.672" size="1.016" layer="25">1</text>
+<text x="45.4152" y="55.5752" size="1.27" layer="16" font="vector" ratio="15" rot="MR270">2020</text>
+<text x="46.9392" y="55.5752" size="1.27" layer="16" font="vector" ratio="15" rot="MR270">IMA</text>
 </plain>
 <libraries>
 <library name="ATTINY85-20PU">
@@ -775,18 +776,18 @@ design rules under a new name.</description>
 <wire x1="53.34" y1="48.895" x2="53.34" y2="50.165" width="0.3048" layer="16"/>
 <wire x1="52.705" y1="48.26" x2="53.34" y2="48.895" width="0.3048" layer="16"/>
 <wire x1="40.347" y1="56.222" x2="47.5488" y2="56.222" width="0.3048" layer="16"/>
-<wire x1="47.5488" y1="53.88" x2="48.895" y2="53.88" width="0.3048" layer="16"/>
-<wire x1="46.974" y1="53.3052" x2="47.5488" y2="53.88" width="0.3048" layer="16"/>
+<wire x1="48.768" y1="53.88" x2="48.895" y2="53.88" width="0.3048" layer="16"/>
+<wire x1="46.974" y1="52.086" x2="48.768" y2="53.88" width="0.3048" layer="16"/>
 <wire x1="48.895" y1="54.8758" x2="47.5488" y2="56.222" width="0.3048" layer="16"/>
 <wire x1="48.895" y1="53.88" x2="48.895" y2="54.8758" width="0.3048" layer="16"/>
-<wire x1="45.1452" y1="48.1584" x2="45.1452" y2="45.7548" width="0.3048" layer="16"/>
-<wire x1="43.7388" y1="44.3484" x2="45.1452" y2="45.7548" width="0.3048" layer="16"/>
-<wire x1="40.5384" y1="44.3484" x2="43.7388" y2="44.3484" width="0.3048" layer="16"/>
+<wire x1="45.7548" y1="48.1584" x2="45.7548" y2="45.45" width="0.3048" layer="16"/>
+<wire x1="44.6532" y1="44.3484" x2="45.7548" y2="45.45" width="0.3048" layer="16"/>
+<wire x1="40.5384" y1="44.3484" x2="44.6532" y2="44.3484" width="0.3048" layer="16"/>
 <wire x1="38.7184" y1="42.5284" x2="40.5384" y2="44.3484" width="0.3048" layer="16"/>
 <wire x1="37.465" y1="50.8" x2="37.465" y2="53.34" width="0.3048" layer="16"/>
 <wire x1="37.465" y1="53.34" x2="40.347" y2="56.222" width="0.3048" layer="16"/>
-<wire x1="45.1452" y1="48.1584" x2="46.974" y2="49.9872" width="0.3048" layer="16"/>
-<wire x1="46.974" y1="49.9872" x2="46.974" y2="53.3052" width="0.3048" layer="16"/>
+<wire x1="45.7548" y1="48.1584" x2="46.974" y2="49.3776" width="0.3048" layer="16"/>
+<wire x1="46.974" y1="49.3776" x2="46.974" y2="52.086" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$3">
 <contactref element="S1" pad="P"/>
@@ -820,16 +821,13 @@ design rules under a new name.</description>
 <signal name="N$1">
 <contactref element="U1" pad="6"/>
 <contactref element="SENS" pad="1"/>
-<wire x1="48.895" y1="48.8" x2="47.244" y2="48.8" width="0.3048" layer="16"/>
-<wire x1="46.6184" y1="48.1744" x2="47.244" y2="48.8" width="0.3048" layer="16"/>
+<wire x1="48.895" y1="48.8" x2="47.5488" y2="48.8" width="0.3048" layer="16"/>
 <wire x1="40.64" y1="40.64" x2="40.64" y2="42.7736" width="0.3048" layer="16"/>
 <wire x1="40.64" y1="42.7736" x2="41.4528" y2="43.5864" width="0.3048" layer="16"/>
-<wire x1="41.4528" y1="43.5864" x2="44.2308" y2="43.5864" width="0.3048" layer="16"/>
-<wire x1="44.2308" y1="43.5864" x2="46.0596" y2="45.4152" width="0.3048" layer="16"/>
-<wire x1="46.0596" y1="45.4152" x2="46.0596" y2="46.9392" width="0.3048" layer="16"/>
-<wire x1="46.0596" y1="46.9392" x2="46.0596" y2="47.514" width="0.3048" layer="16"/>
-<wire x1="46.0596" y1="47.514" x2="46.0596" y2="47.6156" width="0.3048" layer="16"/>
-<wire x1="46.0596" y1="47.6156" x2="46.6184" y2="48.1744" width="0.3048" layer="16"/>
+<wire x1="41.4528" y1="43.5864" x2="44.8404" y2="43.5864" width="0.3048" layer="16"/>
+<wire x1="44.8404" y1="43.5864" x2="46.3644" y2="45.1104" width="0.3048" layer="16"/>
+<wire x1="46.3644" y1="45.1104" x2="46.3644" y2="47.6156" width="0.3048" layer="16"/>
+<wire x1="46.3644" y1="47.6156" x2="47.5488" y2="48.8" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$7">
 <contactref element="SENS" pad="4"/>
@@ -843,9 +841,7 @@ design rules under a new name.</description>
 <wire x1="49.507775" y1="47.5808" x2="50.1904" y2="48.263425" width="0.1524" layer="16"/>
 <wire x1="47.3075" y1="47.3075" x2="47.5808" y2="47.5808" width="0.1524" layer="16"/>
 <wire x1="47.5808" y1="47.5808" x2="49.507775" y2="47.5808" width="0.1524" layer="16"/>
-<wire x1="50.1904" y1="48.263425" x2="50.1904" y2="48.895" width="0.1524" layer="16"/>
-<wire x1="50.1904" y1="48.895" x2="50.1904" y2="49.53" width="0.1524" layer="16"/>
-<wire x1="50.1904" y1="49.53" x2="50.1904" y2="50.0446" width="0.1524" layer="16"/>
+<wire x1="50.1904" y1="48.263425" x2="50.1904" y2="49.53" width="0.1524" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
