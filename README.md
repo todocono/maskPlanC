@@ -1,8 +1,9 @@
-# tinyWorkshop
-Designed by Rodolfo Cossovich @NYUShanghai
+# maskPlanC
+This document can work well with the assembly instructions for the face mask hosted at https://drive.google.com/file/d/1PCkjFUZ8gI0-NtIk4xPe1UZWPMF1h7Cg/view?usp=sharing
+Designed by Gabriele Ermacora, Yinmiao Li, Momoe Nomoto & Rodolfo Cossovich
+This repository uses elements from https://github.com/todocono/tinyworkshop
 
-
-## Programming - 2019/10/15
+## Programming 
 
 LED Blink  
 What’s under the hood: https://www.arduino.cc/en/uploads/Main/arduino-uno-schematic.pdf  
@@ -19,7 +20,7 @@ analogWrite
 Stingy Watchdog: https://www.insidegadgets.com/2011/02/05/reduce-attiny-power-consumption-by-sleeping-with-the-watchdog-timer/  
 
 
-## PCB Design - 2019/10/22
+## PCB Design 
 
 CAD Software: https://predictabledesigns.com/pcb-design-software-which-one-is-best/  
 Eagle: https://www.autodesk.com/products/eagle/free-download  
@@ -30,7 +31,7 @@ LEDs & everything else: https://github.com/adafruit/Adafruit-Eagle-Library
 Measure well or measure twice: PRINT!  
 
 
-## Manufacturing - 2019/10/29
+## Manufacturing 
 
 Ironing your PCB: https://www.sparkfun.com/news/2116?_ga=2.74353041.282288770.1571127757-1077704488.1567749628  
 ProtoMat 43: https://www.lpkfusa.com/products/pcb_prototyping/machines/protomat_s64/  
